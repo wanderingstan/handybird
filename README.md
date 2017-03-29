@@ -9,7 +9,7 @@ Play it now here: https://wanderingstan.github.io/handybird/
 
 Notes
 ==
-* Sound must be on and maximized. You may hear the high-pitched tone it uses.
+* Sound must be on and maximized. You may hear the high-pitched tone it uses. Best to use built-in laptop speaker.
 * Microphone access must be allowed. It listens to the change in the tone to detect motion.
 * Flap your hand toward your microphone. You may have to Google where it is on your computer.
 * The speaker or microphone on some computers may not be able to handle the 20kHz tone used for the doppler detection.
