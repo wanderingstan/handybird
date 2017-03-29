@@ -1,7 +1,7 @@
 Handy Bird
 =========
 
-Play Flappy Bird by actually flapping your hands. 
+Play Flappy Bird by actually flapping your hands.
 
 [<img src="https://media.giphy.com/media/UHbpTnnoxbG9O/giphy.gif">](https://wanderingstan.github.io/handybird/)
 
@@ -17,6 +17,6 @@ Notes
 
 History
 ==
-I was totally amazed by [Daniel Rapp's demo](https://github.com/DanielRapp/doppler) that its possible to detect hand movement using the doppler effect in javascript. Given that I must make everything into a game, Flappy Bird was the obvious choice. 
-Nebez Briefkani had already created a great javascript version, [Floppy Bird](https://github.com/nebez/floppybird). Excellent code in both projects enabled this mash-up. 
+I was totally amazed by [Daniel Rapp's demo](https://github.com/DanielRapp/doppler) that its possible to detect hand movement using the doppler effect in javascript. Given that I must make everything into a game, Flappy Bird was the obvious choice.
+Nebez Briefkani had already created a great javascript version, [Floppy Bird](https://github.com/nebez/floppybird). Excellent code in both projects enabled this mash-up.
 
