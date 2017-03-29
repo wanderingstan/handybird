@@ -3,7 +3,7 @@ Handy Bird
 
 Play Flappy Bird by actually flapping your hands. 
 
-![handybird-movie.gif](https://media.giphy.com/media/UHbpTnnoxbG9O/giphy.gif)
+[<img src="https://media.giphy.com/media/UHbpTnnoxbG9O/giphy.gif">](https://wanderingstan.github.io/handybird/)
 
 Play it now here: https://wanderingstan.github.io/handybird/
 
