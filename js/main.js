@@ -63,8 +63,12 @@ window.addEventListener('load', function() {
       var diff = bandwidth.left - bandwidth.right;
       const clickThreshold = -10;
       if (diff < clickThreshold) {
-         console.log(`diff: ${diff}`);
-         screenClick();
+         //console.log(`diff: ${diff}`);
+         //in ScoreScreen, hitting space should click the "replay" button. else it's just a regular spacebar hit
+         if(currentstate == states.ScoreScreen)
+            $("#replay").click();
+         else
+            screenClick();
       }
     }
   });
