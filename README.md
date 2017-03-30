@@ -22,8 +22,8 @@ Nebez Briefkani had already created a great javascript version, [Floppy Bird](ht
 
 Local Development
 ---
-To develop on a local machine, you'll have to start a webserver. This should work:
+The microphone is not permitted files served from the filesystem. To develop on a local machine, you'll have to start a webserver. This should work:
 
     python -m SimpleHTTPServer 8000
 
-The microphone is not permitted on local html pages.
+
