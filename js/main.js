@@ -61,10 +61,14 @@ window.addEventListener('load', function() {
     var threshold = 4;
     if (bandwidth.left > threshold || bandwidth.right > threshold) {
       var diff = bandwidth.left - bandwidth.right;
-      const clickThreshold = -10;
+      const clickThreshold = -10; // Tune this number for sensitivity of "flap"
       if (diff < clickThreshold) {
          //console.log(`diff: ${diff}`);
-         //in ScoreScreen, hitting space should click the "replay" button. else it's just a regular spacebar hit
+         // We need user to click a button to start the game so we are allowed to make sound.
+         // Per: https://developers.google.com/web/updates/2017/09/autoplay-policy-changes
+         if(currentstate == states.SplashScreen)
+            return;
+         //in ScoreScreen, flapping motion should click the "replay" button. else it's just a regular spacebar hit
          if(currentstate == states.ScoreScreen)
             $("#replay").click();
          else
